@@ -6,4 +6,3 @@ jobs:
       steps:        
       - name: Writegood Check
       	uses: mnahinkhan/writegood-action@v1.0.0
-	
