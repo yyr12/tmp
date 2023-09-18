@@ -6,3 +6,5 @@ jobs:
       steps:    
       - name: Lint Markdown 
         uses: tomwhross/write-good-action@v1.6
+      - name: Writegood Check
+		  uses: mnahinkhan/writegood-action@v1.0.0
