@@ -3,8 +3,7 @@ on: [push]
 jobs:
    mdtest:
       runs-on: ubuntu-latest
-      steps:    
-      - name: Lint Markdown 
-        uses: tomwhross/write-good-action@v1.6
+      steps:        
       - name: Writegood Check
-		  uses: mnahinkhan/writegood-action@v1.0.0
+      	uses: mnahinkhan/writegood-action@v1.0.0
+	
