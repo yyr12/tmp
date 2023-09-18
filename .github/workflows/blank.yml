@@ -1,0 +1,8 @@
+name: mdtest
+on: [push]
+jobs:
+   mdtest:
+      runs-on: ubuntu-latest
+      steps:    
+      - name: Lint Markdown 
+        uses: tomwhross/write-good-action@v1.6
